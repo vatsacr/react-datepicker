@@ -17,10 +17,10 @@ const MONTHS = [
 export default class DateIndicator extends Component {
   render() {
     return (
-      <h3>
+      <h4>
         {MONTHS[this.props.selectedMonth].substr(0, 3)}{" "}
         {this.props.selectedYear}
-      </h3>
+      </h4>
     );
   }
 }

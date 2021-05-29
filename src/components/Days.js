@@ -30,7 +30,7 @@ export default class Days extends Component {
   }
   render() {
     return this.state.days.map((day) => (
-      <div className="d-inline-block p-2 text-center days" key={day}>
+      <div className="d-inline-block p-2 days" key={day}>
         {day}
       </div>
     ));
